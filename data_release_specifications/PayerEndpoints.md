@@ -40,22 +40,24 @@ In total, there are **at least five required endpoint types**, plus one optional
 | Column                 | Description                         | Notes                                    |
 | - | -- | - |
 | `enumeration_approach` | Identifier type used in this row    | e.g., HIOS, UUID                         |
-| `Payer ID`             | CMS-issued payer identifier or UUID | **Required**                             |
-| `Payer LBN`            | Legal Business Name                 | **Required**                             |
-| `Plan ID`              | Plan identifier                     | Required if multiple endpoints per payer |
-| `Plan Name`            | Plan name                           | Required if multiple endpoints per payer |
-| `FHIR_URL`             | FHIR endpoint URL                   | **Required**                             |
-| `FHIR_URL_vendor`      | Vendor name                         | **Required**                             |
-| `FHIR_URL_Type`        | Endpoint type                       | See values below                         |
-| `Sandbox FHIR URL`     | Sandbox/testing endpoint            | Optional                                 |
-| `Documentation URL`    | Developer documentation             | Optional                                 |
-| `Swagger URL`          | Swagger definition                  | Optional                                 |
-| `Open API URL`         | OpenAPI definition                  | Optional                                 |
-| `Well-known URL`       | SMART-on-FHIR well-known endpoint   | Optional                                 |
+| `payer_id`             | CMS-issued payer identifier or UUID | **Required**                             |
+| `payer_lbn`            | Legal Business Name                 | **Required**                             |
+| `plan_id`              | Plan identifier                     | Required if multiple endpoints per payer |
+| `plan_name`            | Plan name                           | Required if multiple endpoints per payer |
+| `fhir_url`             | FHIR endpoint URL                   | **Required**                             |
+| `fhir_url_vendor`      | Vendor name                         | **Required**                             |
+| `fhir_url_type`        | Endpoint type                       | See values below                         |
+| `sandbox_fhir_url`     | Sandbox/testing endpoint            | Optional                                 |
+| `documentation_url`    | Developer documentation             | Optional                                 |
+| `swagger_url`          | Swagger definition                  | Optional                                 |
+| `open_api_url`         | OpenAPI definition                  | Optional                                 |
+| `well_known_url`       | SMART-on-FHIR well-known endpoint   | Optional                                 |
+
+> Note: All column names are strict `snake_case` (lowercase, numbers, and underscores only).
 
 
 
-## Valid Values: `FHIR_URL_Type`
+## Valid Values: `fhir_url_type`
 
 * `provider_directory_api`
 * `patient_access_api`
@@ -68,7 +70,7 @@ In total, there are **at least five required endpoint types**, plus one optional
 
 ## Notes
 
-* Use **Plan-level fields** (`Plan ID`, `Plan Name`) only when:
+* Use **Plan-level fields** (`plan_id`, `plan_name`) only when:
 
   * Different plans have different FHIR endpoints
 

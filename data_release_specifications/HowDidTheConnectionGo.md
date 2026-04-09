@@ -30,12 +30,12 @@ To align with the future feedback API, you may use the following CSV structure.
 
 | Column                                      | Description                                 | Notes                         |
 | ------------------------------------------- | ------------------------------------------- | ----------------------------- |
-| `FHIR_scope_g10patientaccess`               | API type                                    | Required                      |
-| `FHIR_URL`                                  | FHIR endpoint URL (or `"URL missing"`)      | Required                      |
-| `FHIR_URL_vendor`                           | EHR vendor name                             | Required                      |
-| `ONPI_sought`                               | Organizational NPI                          | ONPI or blank                 |
-| `PNPI_sought`                               | Clinician NPI (if known)                    | PNPI or blank                 |
-| `HL7ID_sought`                              | Vendor-listed identifier (if not NPI)       | HL7ID or blank                |
+| `fhir_scope_g10patientaccess`               | API type                                    | Required                      |
+| `fhir_url`                                  | FHIR endpoint URL (or `"URL missing"`)      | Required                      |
+| `fhir_url_vendor`                           | EHR vendor name                             | Required                      |
+| `onpi_sought`                               | Organizational NPI                          | ONPI or blank                 |
+| `pnpi_sought`                               | Clinician NPI (if known)                    | PNPI or blank                 |
+| `hl7id_sought`                              | Vendor-listed identifier (if not NPI)       | HL7ID or blank                |
 | `provider_name_text`                        | Provider name                               |                               |
 | `reporting_period_start_date`               | Reporting start date                        |                               |
 | `reporting_period_end_date`                 | Reporting end date                          |                               |
@@ -54,7 +54,7 @@ To align with the future feedback API, you may use the following CSV structure.
 | `endpoint_missing_count`                    | Missing endpoints / FHIR not enabled        |                               |
 | `other_complaint_text`                      | Additional notes                            |                               |
 | `fhir_compliance_percent`                   | % of non-compliant FHIR responses           |                               |
-| `Is_known_good`                             | Latest connection succeeded                 | Yes/No                        |
+| `is_known_good`                             | Latest connection succeeded                 | Yes/No                        |
 
 ---
 

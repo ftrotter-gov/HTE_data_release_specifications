@@ -43,26 +43,26 @@ This document defines a **lightweight CSV specification** to enable rapid data s
 | ------------------------------------------- | ----------------------------------------- | ------------------------- |
 | `submitter_name`                            | Organization submitting the CSV           | e.g., Cerner, Epic        |
 | `submitting_for_name`                       | Organization represented in the data      | e.g., hospital system     |
-| `Personal_NPI *`                            | Individual (Type 1) NPI                   | Required                  |
+| `personal_npi`                              | Individual (Type 1) NPI                   | Required                  |
 | `personal_last_name`                        | Provider last name                        |                           |
-| `Organizational_NPI *`                      | Organizational (Type 2) NPI               | Required if available     |
+| `organizational_npi`                        | Organizational (Type 2) NPI               | Required if available     |
 | `organization_name`                         | Organization name                         |                           |
-| `Service Address Line1`                     | Primary service location (street address) | No names                  |
-| `Service Address Line2`                     | Address line 2                            |                           |
-| `Service Address City`                      | City                                      |                           |
-| `Service Address State`                     | State (2-letter code)                     |                           |
-| `Service Address zip code`                  | ZIP code                                  | Prefer 9 digits           |
-| `Service Address country code`              | Country code (if outside US)              |                           |
-| `is_currently_practicing *`                 | Whether clinician is currently practicing | `1 = yes`, `0 = no`       |
-| `FHIR_Endpoint_URL *`                       | FHIR endpoint URL                         | Required                  |
-| `FHIR_Endpoint_Type`                        | Endpoint type                             | e.g., General, Scheduling |
-| `FHIR_Endpoint_SMART_Capabilities_URL`      | SMART capabilities endpoint               | URL or blank              |
-| `FHIR_Endpoint_Developer_Documentation_URL` | Public developer docs                     | Must not require login    |
-| `FHIR_Endpoint_Developer_Signup_URL`        | Developer signup page                     |                           |
-| `FHIR_Endpoint_Swagger_URL`                 | Swagger definition                        |                           |
-| `FHIR_Endpoint_OpenAPI_URL`                 | OpenAPI definition                        |                           |
-| `FHIR_General_Sandbox_URL`                  | Vendor-level sandbox                      |                           |
-| `FHIR_Specific_Sandbox_Endpoint_URL`        | Instance-specific sandbox                 |                           |
+| `service_address_line1`                     | Primary service location (street address) | No names                  |
+| `service_address_line2`                     | Address line 2                            |                           |
+| `service_address_city`                      | City                                      |                           |
+| `service_address_state`                     | State (2-letter code)                     |                           |
+| `service_address_zip_code`                  | ZIP code                                  | Prefer 9 digits           |
+| `service_address_country_code`              | Country code (if outside US)              |                           |
+| `is_currently_practicing`                   | Whether clinician is currently practicing | **Required**; `1 = yes`, `0 = no` |
+| `fhir_endpoint_url`                         | FHIR endpoint URL                         | Required                  |
+| `fhir_endpoint_type`                        | Endpoint type                             | e.g., General, Scheduling |
+| `fhir_endpoint_smart_capabilities_url`      | SMART capabilities endpoint               | URL or blank              |
+| `fhir_endpoint_developer_documentation_url` | Public developer docs                     | Must not require login    |
+| `fhir_endpoint_developer_signup_url`        | Developer signup page                     |                           |
+| `fhir_endpoint_swagger_url`                 | Swagger definition                        |                           |
+| `fhir_endpoint_openapi_url`                 | OpenAPI definition                        |                           |
+| `fhir_general_sandbox_url`                  | Vendor-level sandbox                      |                           |
+| `fhir_specific_sandbox_endpoint_url`        | Instance-specific sandbox                 |                           |
 
 
 ## Submission Flexibility
@@ -77,7 +77,7 @@ To avoid delays:
 
   * Submit with:
 
-    * Only `FHIR_Endpoint_URL`
+    * Only `fhir_endpoint_url`
     * Leave additional endpoint-related fields blank
 
 
