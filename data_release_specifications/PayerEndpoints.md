@@ -15,11 +15,11 @@ In total, there are **at least five required endpoint types**, plus one optional
 
 ### Required by existing regulations
 
-* **Provider Directory API** (CMS-9115-F)
-* **Patient Access API** (CMS-9115-F, CMS-0057-F)
-* **Payer-to-Payer API** (CMS-9115-F, CMS-0057-F)
-* **Provider Access API** (CMS-0057-F)
-* **Prior Authorization API** (CMS-0057-F)
+* **Provider Directory API** (CMS-9115-F) (Shows which healthcare providers particpate in which insurance plans)
+* **Patient Access API** (CMS-9115-F, CMS-0057-F) (Allows patients to access the clinical records that their insurance companies hold)
+* **Payer-to-Payer API** (CMS-9115-F, CMS-0057-F) (When a patient changes insurance companies, their records should follow them)
+* **Provider Access API** (CMS-0057-F) (Clinicians need access to the billing history and other clinical records held by the payers)
+* **Prior Authorization API** (CMS-0057-F) (Clinicians need to get their procedures pre-approved for patient)
 
 ### Optional
 
