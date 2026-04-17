@@ -45,30 +45,30 @@ Notes:
 
 ## CSV Schema
 
-| Column                                      | Description                       | Notes                     |
-| - |  | - |
-| `submitter_name`                            | Submitting organization           | e.g., Epic, Cerner        |
-| `submitting_for_name`                       | Organization represented          | e.g., hospital system     |
-| `personal_npi`                              | Individual (Type 1) NPI           | One per row               |
-| `personal_last_name`                        | Provider last name                |                           |
-| `organizational_npi`                        | Organizational (Type 2) NPI       | Required if available     |
-| `organization_name`                         | Organization name                 |                           |
-| `service_address_line1`                     | Primary service location (street) | No names                  |
-| `service_address_line2`                     | Address line 2                    |                           |
-| `service_address_city`                      | City                              |                           |
-| `service_address_state`                     | State (2-letter code)             |                           |
-| `service_address_zip_code`                  | ZIP code                          | Prefer 9 digits           |
-| `service_address_country_code`              | Country (if outside US)           |                           |
-| `is_currently_practicing`                   | Current affiliation               | **Required**; `1 = yes`, `0 = no` |
-| `fhir_endpoint_url`                         | FHIR endpoint                     | Required                  |
-| `fhir_endpoint_type`                        | Endpoint type                     | e.g., General, Scheduling |
-| `fhir_endpoint_smart_capabilities_url`      | SMART capabilities URL            | Optional                  |
-| `fhir_endpoint_developer_documentation_url` | Public documentation              | No login required         |
-| `fhir_endpoint_developer_signup_url`        | Developer signup page             | Optional                  |
-| `fhir_endpoint_swagger_url`                 | Swagger definition                | Optional                  |
-| `fhir_endpoint_openapi_url`                 | OpenAPI definition                | Optional                  |
-| `fhir_general_sandbox_url`                  | Vendor sandbox                    | Optional                  |
-| `fhir_specific_sandbox_endpoint_url`        | Instance sandbox                  | Optional                  |
+| Column                                      | Description                       | Notes                               |
+| ---                                         | ---                               | ---                                 |
+| `submitter_name`                            | Submitting organization           | e.g., Epic, Cerner                  |
+| `submitting_for_name`                       | Organization represented          | e.g., hospital system               |
+| `personal_npi`                              | Individual (Type 1) NPI           | One per row                         |
+| `personal_last_name`                        | Provider last name                |                                     |
+| `organizational_npi`                        | Organizational (Type 2) NPI       | Required if available               |
+| `organization_name`                         | Organization name                 |                                     |
+| `service_address_line1`                     | Primary service location (street) | No names                            |
+| `service_address_line2`                     | Address line 2                    |                                     |
+| `service_address_city`                      | City                              |                                     |
+| `service_address_state`                     | State (2-letter code)             |                                     |
+| `service_address_zip_code`                  | ZIP code                          | Prefer 9 digits                     |
+| `service_address_country_code`              | Country (if outside US)           |                                     |
+| `is_currently_practicing`                   | Current affiliation               | **Required**; `1 = yes`, `0 = no`   |
+| `fhir_endpoint_url`                         | FHIR endpoint                     | Required                            |
+| `fhir_endpoint_type`                        | Endpoint type                     | e.g., General, Scheduling           |
+| `fhir_endpoint_smart_capabilities_url`      | SMART capabilities URL            | Optional                            |
+| `fhir_endpoint_developer_documentation_url` | Public documentation              | No login required                   |
+| `fhir_endpoint_developer_signup_url`        | Developer signup page             | Optional                            |
+| `fhir_endpoint_swagger_url`                 | Swagger definition                | Optional                            |
+| `fhir_endpoint_openapi_url`                 | OpenAPI definition                | Optional                            |
+| `fhir_general_sandbox_url`                  | Vendor sandbox                    | Optional                            |
+| `fhir_specific_sandbox_endpoint_url`        | Instance sandbox                  | Optional                            |
 
 
 
