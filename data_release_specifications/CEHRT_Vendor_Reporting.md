@@ -134,9 +134,3 @@ Single-row summary at the CEHRT vendor level:
 
 * `percent_orgs_with_missing_identifier` — Percent missing identifiers
 
-
-
-If you want, I can also:
-
-* Align this stylistically with your previous FHIR CSV doc
-* Or turn both into a single cohesive “CMS ecosystem reporting spec” document
