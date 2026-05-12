@@ -1,3 +1,5 @@
+Please find the [current version of the Data Release Specifications here](https://github.com/CMS-Enterprise/HTE_data_release_specifications)! 
+
 Health Tech Ecosystem Data Release Specifications
 ===================
 
