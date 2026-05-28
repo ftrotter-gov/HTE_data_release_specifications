@@ -11,7 +11,7 @@
 		"Any other plan finding strings"
 ],
   "endpoints": {
-	 "Payer_homepage": "http://example.com",
+	"payer_homepage": "http://example.com",
     "davinci_crd_hook_endpoint#1.1": "http://example.org/foo/bar/crd",
     "davinci_crd_hook_endpoint#1.2": "http://example.org/foo/bar/crdnew",
     "davinci_dtr_qpackage_endpoint#1.2": "http://example.org/foo/bar/dtr",
