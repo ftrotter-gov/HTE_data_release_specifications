@@ -20,6 +20,7 @@
     "ndh_meta_documentation_url": "http://example.org/fhir_docs/",
 
     "davinci_provider_directory_endpoint#1.1": "http://example.org/foo/bar/provider-directory",
+	"davinci_provider_directory_endpoint_all_at_once#1.1": "http://example.org/foo/bar/provider-directory/all_at_once.ndjson.zip",  
     "davinci_patient_payer_access_endpoint#1.1": "http://example.org/foo/bar/patient-payer-access",
     "davinci_provider_payer_access_endpoint#1.1": "http://example.org/foo/bar/provider-payer-access",
     "davinci_payer_to_payer_endpoint#1.1": "http://example.org/foo/bar/payer-to-payer"
