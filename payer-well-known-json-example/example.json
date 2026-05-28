@@ -4,7 +4,7 @@
     "system": "http://example.org/NamingSystem/payer-identifiers",
     "value": "12345"
   },
-  "payer_uuid": "149f9fa4-3e49-4c2c-b6e8-76f533c14221"
+  "payer_uuid": "149f9fa4-3e49-4c2c-b6e8-76f533c14221",
   "string_search_match": [
 		"Example payer",
 		"Good Group 500",
