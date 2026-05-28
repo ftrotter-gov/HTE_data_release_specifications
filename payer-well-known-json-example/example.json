@@ -1,0 +1,27 @@
+{
+  "resourceType": "http://hl7.org/fhir/us/davinci-hrex/StructureDefinition/HRexWellknownDefinition",
+  "identifier": {
+    "system": "http://example.org/NamingSystem/payer-identifiers",
+    "value": "12345"
+  },
+  "payer_uuid": "149f9fa4-3e49-4c2c-b6e8-76f533c14221"
+  "string_search_match": [
+		"Example payer",
+		"Good Group 500",
+		"Any other plan finding strings"
+],
+  "endpoints": {
+	 "Payer_homepage": "http://example.com",
+    "davinci_crd_hook_endpoint#1.1": "http://example.org/foo/bar/crd",
+    "davinci_crd_hook_endpoint#1.2": "http://example.org/foo/bar/crdnew",
+    "davinci_dtr_qpackage_endpoint#1.2": "http://example.org/foo/bar/dtr",
+    "davinci_pas_submission_endpoint#1.2": "http://example.org/foo/bar/pas2",
+    "ndh_meta_fhir_signup_url": "http://example.org/fhir_signup/",
+    "ndh_meta_documentation_url": "http://example.org/fhir_docs/",
+
+    "davinci_provider_directory_endpoint#1.1": "http://example.org/foo/bar/provider-directory",
+    "davinci_patient_payer_access_endpoint#1.1": "http://example.org/foo/bar/patient-payer-access",
+    "davinci_provider_payer_access_endpoint#1.1": "http://example.org/foo/bar/provider-payer-access",
+    "davinci_payer_to_payer_endpoint#1.1": "http://example.org/foo/bar/payer-to-payer"
+  }
+}
