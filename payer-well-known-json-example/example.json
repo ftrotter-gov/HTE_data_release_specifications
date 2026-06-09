@@ -23,6 +23,8 @@
 	"davinci_provider_directory_endpoint_all_at_once#1.1": "http://example.org/foo/bar/provider-directory/all_at_once.ndjson.zip",  
     "davinci_patient_payer_access_endpoint#1.1": "http://example.org/foo/bar/patient-payer-access",
     "davinci_provider_payer_access_endpoint#1.1": "http://example.org/foo/bar/provider-payer-access",
-    "davinci_payer_to_payer_endpoint#1.1": "http://example.org/foo/bar/payer-to-payer"
+    "davinci_payer_to_payer_endpoint#1.1": "http://example.org/foo/bar/payer-to-payer",
+	"tic_table_of_contents#issuer-11111": "https://example.com/mrf/2025-01-01_example-payer_issuer-a_index.json",
+	"tic_table_of_contents#issuer-22222": "https://example.com/mrf/2025-01-01_example-payer_issuer-b_index.json"
   }
 }
