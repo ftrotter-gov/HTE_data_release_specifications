@@ -60,7 +60,7 @@ Notes:
 | `service_address_zip_code`                  | ZIP code                          | Prefer 9 digits                     |
 | `service_address_country_code`              | Country (if outside US)           |                                     |
 | `is_currently_practicing`                   | Current affiliation               | **Required**; `1 = yes`, `0 = no`   |
-| `fhir_endpoint_url`                         | FHIR endpoint                     | Required                            |
+| `fhir_endpoint_url`                         | FHIR endpoint                     | Optional                            |
 | `fhir_endpoint_type`                        | Endpoint type                     | e.g., General, Scheduling           |
 | `fhir_endpoint_smart_capabilities_url`      | SMART capabilities URL            | Optional                            |
 | `fhir_endpoint_developer_documentation_url` | Public documentation              | No login required                   |
