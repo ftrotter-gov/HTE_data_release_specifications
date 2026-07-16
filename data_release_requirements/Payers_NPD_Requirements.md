@@ -1,0 +1,9 @@
+
+# Payers — NPD Requirements
+
+Copied from GA_Requirements_CleanDraft_07_01
+
+| Requirement and explanatory text | Document page(s) |
+|---|---:|
+| **National Provider Directory Integration**<br><br>**Support creation, maintenance, and submission of provider directory entries in the National Provider Directory (NPD).**<br><br>Payers must update with the NPD to publish provider organization, location, endpoint, and verification metadata, and provide the locations of the various required Payer FHIR endpoints to the NPD. See the pinned specifications on the #provider-directory channel.<br><br>NPD publishing obligations apply equally to providers and payers. Providers' NPD information is typically submitted through NPI/PECOS plus their EHR vendor or CMS-aligned network on their behalf; payers publish directly because they typically maintain their own endpoint and identity infrastructure. The substantive obligation to ensure complete, accurate, and timely NPD data is equivalent across participant types. | 36 |
+| **Identity & Trust**<br><br>**Participate in the National Provider Directory (NPD) for endpoint and identity verification.**<br><br>Payers must ensure their query endpoints, organizational identity, and contact metadata appear in the NPD to support secure, trusted exchange across networks. | 37 |
