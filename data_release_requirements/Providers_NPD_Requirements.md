@@ -17,6 +17,14 @@ C. If you believe that your EHR vendor is already reporting this information to 
 
 |
 | **Delegation**<br><br>**Primary Entities (Providers) may authorize Assignees to execute queries on their behalf for any permitted Purpose of Use.**<br><br>A Primary Entity is the entity or organization that holds the permitted-purpose relationship with the patient. An Assignee is a third-party organization authorized through a Business Associate Agreement (BAA) or other applicable legal authority.<br><br>Delegation must be established and verified through the National Provider Directory (NPD) using CMS-approved IAL2 identity verification. Participants responding to queries may rely on NPD delegation records to determine whether a request is authorized. If a Primary Entity has the legal authority to query for a given Purpose of Use, that authority may be exercised directly or through an authorized Assignee regardless of the network, connection, or software system used to execute the query. | 15–16, 27–28 |
-| **What this means in practice**<br> | |
+| **What this means in practice**<br> |
+
+Work in Progress.
+
+ |
 | **National Provider Directory Registration**<br><br>**Providers can verify their identity and credentialing in the National Provider Directory (NPD).**<br><br>Provider identity, affiliations, Medicare enrollment, and verified endpoints will be represented in the NPD. Providers are not required to complete IAL2 verification in NPD for GAP, but it is highly encouraged. Providers can flag credentialing inaccuracies if identified. Providers can update credentials and other pertinent information directly in NPD. Known information regarding providers can be supplied indirectly via EHRs, proxies, or CMS Aligned Networks. | 27 |
-| **What this means in practice**<br> | |
+| **What this means in practice**<br> |
+
+Once the NPD Registration system has launched, please have one physician, nurse or other clinician with an individual NPI record visit [https://directory.cms.gov/](https://directory.cms.gov) and update your data there. 
+
+|
