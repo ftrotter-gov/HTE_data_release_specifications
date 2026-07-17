@@ -13,8 +13,11 @@ Payers should:
 2. Create [a well-known Payer Plan index file](https://github.com/ftrotter-gov/FederatedPayerIdentifier/blob/main/WellKnownFileFormat.md) that lists their various endpoints, indexed by their plan identifiers and plan names. 
 * Submit their well-known index through Ecosystem Slack to Fred Trotter OR slack a link to a pull request against the [payer well-known index repository](https://github.com/ftrotter-gov/FederatedPayerIdentifier/tree/main/payer_index_files) directly. 
 
-Payers who submit their Medicare Advantage Provider Directory data to HPMS before the ecosystem deadlines will be givne partial credit. 
+If the above is not possible:
 
+Payers who submit their Medicare Advantage Provider Directory data to HPMS before the ecosystem deadlines will be given partial credit. 
+
+Payers who submit data under the previous [Payer Data CSV Format](../data_release_specifications/Payer_ProviderDataWithoutEndpoints.md) will also be given partial credit!
 
  |
 | **Identity & Trust**<br><br>**Participate in the National Provider Directory (NPD) for endpoint and identity verification.**<br><br>Payers must ensure their query endpoints, organizational identity, and contact metadata appear in the NPD to support secure, trusted exchange across networks. | 37 |
