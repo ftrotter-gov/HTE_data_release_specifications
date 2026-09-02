@@ -42,7 +42,7 @@ In total, there are **at least five required endpoint types**, plus one optional
 | `enumeration_approach` | Identifier type used in this row    | e.g., HIOS, UUID                         |
 | `payer_id`             | CMS-issued payer identifier or UUID | **Required**                             |
 | `payer_lbn`            | Legal Business Name                 | **Required**                             |
-| `plan_id`              | Plan identifier                     | Required if multiple endpoints per payer |
+| `plan_id`              | Plan identifier (could be multi-part like MA contract+plan+etc)                    | Required if multiple plans+endpoints per payer |
 | `plan_name`            | Plan name                           | Required if multiple endpoints per payer |
 | `fhir_url`             | FHIR endpoint URL                   | **Required**                             |
 | `fhir_url_vendor`      | Vendor name                         | **Required**                             |
@@ -59,12 +59,9 @@ In total, there are **at least five required endpoint types**, plus one optional
 
 ## Valid Values: `fhir_url_type`
 
-* `provider_directory_api`
-* `patient_access_api`
-* `payer_to_payer_api`
-* `provider_access_api`
-* `prior_authorization_api`
-* `formulary_api`
+Please see [endpoint types reference data](https://github.com/ftrotter-gov/FederatedPayerIdentifier/blob/main/reference_data/endpoint_types.json)
+
+for current payer endpoint type options.
 
 
 
