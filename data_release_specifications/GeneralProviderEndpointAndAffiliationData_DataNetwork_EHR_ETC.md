@@ -1,4 +1,4 @@
-General Provider Endpoint and Affiliation Data
+General Provider Endpoint and Affiliation Data (DataNetworks, EHRs, etc)
 =========================
 
 
@@ -54,7 +54,9 @@ This document defines a **lightweight CSV specification** to enable rapid data s
 | `service_address_zip_code`                  | ZIP code                                  | Prefer 9 digits           |
 | `service_address_country_code`              | Country code (if outside US)              |                           |
 | `is_currently_practicing`                   | Whether clinician is currently practicing | **Required**; `1 = yes`, `0 = no` |
-| `fhir_endpoint_url`                         | FHIR endpoint URL                         | Required                  |
+| `is_currently_practicing`                   | Whether clinician is currently practicing | **Required**; `1 = yes`, `0 = no` |
+| `fhir_endpoint_url`                         | FHIR endpoint URL for direct connection   | Required                  |
+| `data_network_endpoint_url`                 | Front Door Patient-finder Endpoint for Data Network   | Required if submitter is data network |
 | `fhir_endpoint_type`                        | Endpoint type                             | e.g., General, Scheduling |
 | `fhir_endpoint_smart_capabilities_url`      | SMART capabilities endpoint               | URL or blank              |
 | `fhir_endpoint_developer_documentation_url` | Public developer docs                     | Must not require login    |
